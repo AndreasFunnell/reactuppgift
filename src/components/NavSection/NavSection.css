@@ -1,0 +1,112 @@
+.nav-section {
+  background-color: #F0EFE9;
+  padding: 16px;
+}
+.nav-section .container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr auto;
+  grid-template-areas: "logo bars";
+}
+@media (min-width: 992px) {
+  .nav-section .container {
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: "logo cib social" "logo menu menu";
+  }
+}
+.nav-section .container .btn-menubars {
+  grid-area: bars;
+  border: none;
+  font-size: 25px;
+  background-color: transparent;
+}
+@media (min-width: 992px) {
+  .nav-section .container .btn-menubars {
+    display: none;
+  }
+}
+.nav-section .container .logotype {
+  grid-area: logo;
+  margin-right: 70px;
+}
+.nav-section .container .contactinformation-bar {
+  grid-area: cib;
+  display: none;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media (min-width: 1200px) {
+  .nav-section .container .contactinformation-bar {
+    display: flex;
+  }
+}
+.nav-section .container .contactinformation-bar .content-box {
+  padding-right: 30px;
+  margin-right: 30px;
+  border-right: 1px solid #DAD9D3;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+.nav-section .container .contactinformation-bar .content-box i {
+  margin-right: 5px;
+  font-size: 1.2em;
+}
+.nav-section .container .contactinformation-bar .content-box.last {
+  border: none;
+}
+.nav-section .container .socialmedia-bar {
+  grid-area: social;
+  display: none;
+}
+@media (min-width: 992px) {
+  .nav-section .container .socialmedia-bar {
+    display: block;
+  }
+}
+.nav-section .container .socialmedia-bar a {
+  color: #191919;
+  font-size: 1.3rem;
+  margin-left: 10px;
+}
+.nav-section .container .socialmedia-bar a:hover {
+  color: #666666;
+}
+.nav-section .container .menu {
+  grid-area: menu;
+  display: none;
+  justify-content: space-between;
+  border-top: 1px solid #DAD9D3;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+@media (min-width: 992px) {
+  .nav-section .container .menu {
+    display: flex;
+  }
+}
+.nav-section .container .menu nav a {
+  display: inline-block;
+  color: #191919;
+  text-decoration: none;
+  margin-right: 35px;
+  position: relative;
+}
+.nav-section .container .menu nav a.active {
+  font-weight: 500;
+}
+.nav-section .container .menu nav a.active::after, .nav-section .container .menu nav a:hover::after {
+  content: "";
+  position: absolute;
+  font-weight: 500;
+  height: 2px;
+  width: 15px;
+  background-color: #191919;
+  left: 50%;
+  bottom: -3px;
+  transform: translate(calc(50% - 15px));
+}
+.nav-section .container .menu .btn-login {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
