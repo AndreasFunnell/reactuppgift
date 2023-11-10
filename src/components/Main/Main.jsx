@@ -8,6 +8,7 @@ import ProjectSection from '../ProjectSection/ProjectSection'
 import TeamSection from '../TeamSection/TeamSection'
 import TestimonialSection from '../TestimonialSection/TestimonialSection'
 import ArticlesSection from '../ArticlesSection/ArticlesSection'
+import NewsletterSection from '../NewsletterSection/NewsletterSection'
 
 const Main = () => {
   return (
@@ -21,6 +22,7 @@ const Main = () => {
         <TeamSection />
         <TestimonialSection />
         <ArticlesSection />
+        <NewsletterSection />
     </main>
   )
 }
