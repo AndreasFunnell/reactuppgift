@@ -1,6 +1,6 @@
 import React from 'react'
 import './NavSection.css'
-import logotype from '../../assets/images/Logo.svg'
+import img_logotype from '../../assets/images/Logo.svg'
 
 const NavSection = () => {
   return (
@@ -9,7 +9,7 @@ const NavSection = () => {
 
             <div className="logotype"> 
                 <a href="index.html">
-                    <img className ="logotype" src={logotype} alt="Logo"/>
+                    <img className ="logo-image" src={img_logotype} alt="Logo"/>
                 </a>
             </div>
             <div className="contactinformation-bar">
