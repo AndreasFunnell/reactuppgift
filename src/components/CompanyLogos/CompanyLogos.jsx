@@ -1,4 +1,5 @@
 import React from 'react'
+import './CompanyLogos.css'
 import img_paperz from '../../assets/images/Paperz.svg'
 import img_dorfus from '../../assets/images/Dorfus.svg'
 import img_martino from '../../assets/images/Martino.svg'

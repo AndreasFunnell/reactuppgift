@@ -1,0 +1,204 @@
+.features-section {
+    padding-bottom: 200px;
+    
+    .container {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        align-items: stretch;
+        padding: 50px;
+        padding-bottom: 150px;
+        border: 1px solid #DAD9D3;
+    }
+
+    .buttom-column {
+        grid-column: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 20px;
+        max-width: 500px;
+
+        h2 {
+            padding-bottom: 30px;
+            font-size: 45px;
+            font-weight: bold;
+            font-family: 'DM Sans', sans-serif;
+
+        }
+       
+        p {
+            font-size: 45;
+            color: red;  
+        }
+
+    }
+
+    .text-columns {
+        grid-column: 2;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        max-width: 550px;
+        gap: 20px;
+        column-gap: 50px;
+        align-self: end;
+        max-height: 300px;
+
+        h2 {
+            font-size: 22px;
+            text-align: left;
+        }
+
+        p {
+            font-size: 16px;
+            text-align: left;
+            
+        }
+
+        img {
+            display: block;
+            margin-bottom: 20px;
+            width: 15%
+        }
+    }
+
+    .business,
+    .financial,
+    .startup,
+    .riskmanagement {
+        padding: 10px;
+        text-align: center;
+    }
+
+    @media(max-width: 1200px) { 
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-items: center;
+            padding-top: 10px;
+        }
+
+        .buttom-column {
+            grid-column: auto; 
+            text-align: center;
+            column-gap: 100px;
+
+            h2 {
+                font-size: 30px;
+                text-align: center;
+            }
+        }
+        
+        .text-columns {
+            max-height: 500px;
+            grid-column: auto; 
+            text-align: center;
+            column-gap: 100px;
+
+            p {
+                font-size: 20px;
+            }
+
+            h2 {
+                font-size: 30px;
+            }
+        }
+    }
+
+    @media(max-width: 992px) { 
+        .container {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-items: center;
+            padding-top: 10px;
+        }
+
+        .buttom-column {
+            grid-column: auto; 
+            text-align: center;
+            column-gap: 100px;
+        }
+        
+        .text-columns {
+            grid-column: auto; 
+            text-align: center;
+            column-gap: 100px;
+
+            p {
+                font-size: 20px;
+            }
+
+            h2 {
+                font-size: 30px;
+            }
+        }
+    }
+
+    @media(max-width: 768px) { 
+        
+        .container {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-items: center;
+            padding-top: 0px;
+        }
+
+        .buttom-column {
+            column-gap: 50px;
+            gap: 0px;
+            padding-top: 20px;
+
+            h2 {
+                font-size: 23px;
+            }
+
+        }
+
+        .text-columns {
+            column-gap: 50px;
+            gap: 0px;
+            padding-top: 20px;
+
+            h2 {
+                font-size: 20px;
+            }    
+        }
+    }
+
+    @media(max-width: 576px) { 
+    
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-items: center;
+            padding-top: 0px;
+        }
+
+        .buttom-column {
+            column-gap: 50px;
+            gap: 0px;
+            padding-top: 20px;
+    
+            h2 {
+                font-size: 23px;
+            }
+
+        }
+
+        .text-columns {
+            column-gap: 50px;
+            gap: 0px;
+            padding-top: 20px;
+
+            h2 {
+                font-size: 20px;
+            }
+            
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+
+}

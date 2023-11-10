@@ -1,0 +1,172 @@
+.features-section {
+  padding-bottom: 200px;
+}
+.features-section .container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  align-items: stretch;
+  padding: 50px;
+  padding-bottom: 150px;
+  border: 1px solid #DAD9D3;
+}
+.features-section .buttom-column {
+  grid-column: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  max-width: 500px;
+}
+.features-section .buttom-column h2 {
+  padding-bottom: 30px;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "DM Sans", sans-serif;
+}
+.features-section .buttom-column p {
+  font-size: 45;
+  color: red;
+}
+.features-section .text-columns {
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  max-width: 550px;
+  gap: 20px;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  align-self: end;
+  max-height: 300px;
+}
+.features-section .text-columns h2 {
+  font-size: 22px;
+  text-align: left;
+}
+.features-section .text-columns p {
+  font-size: 16px;
+  text-align: left;
+}
+.features-section .text-columns img {
+  display: block;
+  margin-bottom: 20px;
+  width: 15%;
+}
+.features-section .business,
+.features-section .financial,
+.features-section .startup,
+.features-section .riskmanagement {
+  padding: 10px;
+  text-align: center;
+}
+@media (max-width: 1200px) {
+  .features-section .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding-top: 10px;
+  }
+  .features-section .buttom-column {
+    grid-column: auto;
+    text-align: center;
+    -moz-column-gap: 100px;
+         column-gap: 100px;
+  }
+  .features-section .buttom-column h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .features-section .text-columns {
+    max-height: 500px;
+    grid-column: auto;
+    text-align: center;
+    -moz-column-gap: 100px;
+         column-gap: 100px;
+  }
+  .features-section .text-columns p {
+    font-size: 20px;
+  }
+  .features-section .text-columns h2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 992px) {
+  .features-section .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding-top: 10px;
+  }
+  .features-section .buttom-column {
+    grid-column: auto;
+    text-align: center;
+    -moz-column-gap: 100px;
+         column-gap: 100px;
+  }
+  .features-section .text-columns {
+    grid-column: auto;
+    text-align: center;
+    -moz-column-gap: 100px;
+         column-gap: 100px;
+  }
+  .features-section .text-columns p {
+    font-size: 20px;
+  }
+  .features-section .text-columns h2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .features-section .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding-top: 0px;
+  }
+  .features-section .buttom-column {
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+    gap: 0px;
+    padding-top: 20px;
+  }
+  .features-section .buttom-column h2 {
+    font-size: 23px;
+  }
+  .features-section .text-columns {
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+    gap: 0px;
+    padding-top: 20px;
+  }
+  .features-section .text-columns h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .features-section .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding-top: 0px;
+  }
+  .features-section .buttom-column {
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+    gap: 0px;
+    padding-top: 20px;
+  }
+  .features-section .buttom-column h2 {
+    font-size: 23px;
+  }
+  .features-section .text-columns {
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+    gap: 0px;
+    padding-top: 20px;
+  }
+  .features-section .text-columns h2 {
+    font-size: 20px;
+  }
+  .features-section .text-columns p {
+    font-size: 15px;
+  }
+}
