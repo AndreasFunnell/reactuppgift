@@ -1,0 +1,143 @@
+.testmonial {
+  text-align: center;
+  background-color: #F0D082;
+  padding-bottom: 100px;
+}
+@media (max-width: 768px) {
+  .testmonial {
+    padding-bottom: 0px;
+  }
+}
+.testmonial .container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: white;
+}
+.testmonial .container .title-section {
+  margin-bottom: 20px;
+}
+.testmonial .container .title-section p {
+  font-size: 18px;
+  color: #F94D1C;
+  margin-bottom: 5px;
+}
+.testmonial .container .title-section h2 {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "DM Sans", sans-serif;
+  margin-bottom: 0;
+}
+@media (max-width: 768px) {
+  .testmonial .container .title-section h2 {
+    font-size: 30px;
+  }
+}
+.testmonial .container .columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  padding-top: 50px;
+}
+@media (max-width: 1200px) {
+  .testmonial .container .columns {
+    grid-template-columns: 1fr;
+  }
+}
+.testmonial .container .columns .column {
+  display: flex;
+  align-items: flex-start;
+}
+.testmonial .container .columns .column .cassandra-review,
+.testmonial .container .columns .column .amanda-review,
+.testmonial .container .columns .column .jack-review {
+  display: flex;
+  text-align: left;
+}
+.testmonial .container .columns .column .cassandra-review .cassandra-image,
+.testmonial .container .columns .column .cassandra-review .amanda-image,
+.testmonial .container .columns .column .cassandra-review .jack-image,
+.testmonial .container .columns .column .amanda-review .cassandra-image,
+.testmonial .container .columns .column .amanda-review .amanda-image,
+.testmonial .container .columns .column .amanda-review .jack-image,
+.testmonial .container .columns .column .jack-review .cassandra-image,
+.testmonial .container .columns .column .jack-review .amanda-image,
+.testmonial .container .columns .column .jack-review .jack-image {
+  margin-right: 20px;
+}
+.testmonial .container .columns .column .cassandra-review .cassandra-image img,
+.testmonial .container .columns .column .cassandra-review .amanda-image img,
+.testmonial .container .columns .column .cassandra-review .jack-image img,
+.testmonial .container .columns .column .amanda-review .cassandra-image img,
+.testmonial .container .columns .column .amanda-review .amanda-image img,
+.testmonial .container .columns .column .amanda-review .jack-image img,
+.testmonial .container .columns .column .jack-review .cassandra-image img,
+.testmonial .container .columns .column .jack-review .amanda-image img,
+.testmonial .container .columns .column .jack-review .jack-image img {
+  margin-top: 150px;
+  max-width: 50px;
+}
+@media (max-width: 1200px) {
+  .testmonial .container .columns .column .cassandra-review .cassandra-image img,
+  .testmonial .container .columns .column .cassandra-review .amanda-image img,
+  .testmonial .container .columns .column .cassandra-review .jack-image img,
+  .testmonial .container .columns .column .amanda-review .cassandra-image img,
+  .testmonial .container .columns .column .amanda-review .amanda-image img,
+  .testmonial .container .columns .column .amanda-review .jack-image img,
+  .testmonial .container .columns .column .jack-review .cassandra-image img,
+  .testmonial .container .columns .column .jack-review .amanda-image img,
+  .testmonial .container .columns .column .jack-review .jack-image img {
+    margin-top: 85px;
+  }
+}
+@media (max-width: 992px) {
+  .testmonial .container .columns .column .cassandra-review .cassandra-image img,
+  .testmonial .container .columns .column .cassandra-review .amanda-image img,
+  .testmonial .container .columns .column .cassandra-review .jack-image img,
+  .testmonial .container .columns .column .amanda-review .cassandra-image img,
+  .testmonial .container .columns .column .amanda-review .amanda-image img,
+  .testmonial .container .columns .column .amanda-review .jack-image img,
+  .testmonial .container .columns .column .jack-review .cassandra-image img,
+  .testmonial .container .columns .column .jack-review .amanda-image img,
+  .testmonial .container .columns .column .jack-review .jack-image img {
+    display: none;
+  }
+}
+.testmonial .container .columns .column .cassandra-review .text-content h1,
+.testmonial .container .columns .column .amanda-review .text-content h1,
+.testmonial .container .columns .column .jack-review .text-content h1 {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "DM Sans", sans-serif;
+}
+.testmonial .container .columns .column .cassandra-review .text-content p1,
+.testmonial .container .columns .column .amanda-review .text-content p1,
+.testmonial .container .columns .column .jack-review .text-content p1 {
+  font-size: 16px;
+  color: #F94D1C;
+}
+.testmonial .container .center-content {
+  margin-top: 100px;
+  display: flex;
+}
+@media (max-width: 1200px) {
+  .testmonial .container .center-content {
+    width: 70%;
+  }
+  .testmonial .container .center-content .btn-black {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .testmonial .container .center-content {
+    width: 70%;
+    font-size: 10px;
+  }
+  .testmonial .container .center-content .btn-black {
+    width: 100%;
+    font-size: 15px;
+  }
+}

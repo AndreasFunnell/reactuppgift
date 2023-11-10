@@ -1,0 +1,116 @@
+.meet-our-team {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #F0D082;
+}
+.meet-our-team .container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 100px;
+}
+.meet-our-team .container .title-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+}
+@media (max-width: 1200px) {
+  .meet-our-team .container .title-section h2, .meet-our-team .container .title-section p {
+    text-align: center;
+    align-self: center;
+  }
+}
+.meet-our-team .container .title-section p {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #F94D1C;
+}
+@media (max-width: 576px) {
+  .meet-our-team .container .title-section p {
+    text-align: center;
+    align-self: center;
+  }
+}
+.meet-our-team .container .title-section h2 {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "DM Sans", sans-serif;
+  margin-bottom: 0;
+}
+@media (max-width: 576px) {
+  .meet-our-team .container .title-section h2 {
+    font-size: 23px;
+    text-align: center;
+    align-self: center;
+  }
+}
+.meet-our-team .container .title-section .btn-black {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #F9D783;
+  color: black;
+}
+.meet-our-team .container .title-section .btn-black:hover {
+  background-color: black;
+  color: white;
+}
+@media (max-width: 1200px) {
+  .meet-our-team .container .title-section .btn-black {
+    position: relative;
+    margin-top: 50px;
+    align-self: center;
+    width: 70%;
+    text-align: center;
+  }
+}
+.meet-our-team .container .columns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+@media (max-width: 1200px) {
+  .meet-our-team .container .columns {
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    -moz-column-gap: 100px;
+         column-gap: 100px;
+  }
+}
+@media (max-width: 768px) {
+  .meet-our-team .container .columns {
+    grid-template-columns: 1fr;
+    margin: auto;
+  }
+}
+.meet-our-team .container .columns .column {
+  margin: 0 10px;
+}
+.meet-our-team .container .columns .column .kristine,
+.meet-our-team .container .columns .column .mark,
+.meet-our-team .container .columns .column .kimberly,
+.meet-our-team .container .columns .column .justin {
+  background-color: #F0D082;
+}
+.meet-our-team .container .columns .column .kristine h2,
+.meet-our-team .container .columns .column .mark h2,
+.meet-our-team .container .columns .column .kimberly h2,
+.meet-our-team .container .columns .column .justin h2 {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "DM Sans", sans-serif;
+}
+.meet-our-team .container .columns .column .kristine p,
+.meet-our-team .container .columns .column .mark p,
+.meet-our-team .container .columns .column .kimberly p,
+.meet-our-team .container .columns .column .justin p {
+  font-size: 16px;
+}
+.meet-our-team .container .columns .column .kristine img,
+.meet-our-team .container .columns .column .mark img,
+.meet-our-team .container .columns .column .kimberly img,
+.meet-our-team .container .columns .column .justin img {
+  max-width: 100%;
+}

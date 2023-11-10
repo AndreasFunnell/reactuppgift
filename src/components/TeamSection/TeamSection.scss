@@ -1,0 +1,116 @@
+.meet-our-team {
+    padding-top: 100px; 
+    padding-bottom: 100px;
+    background-color: #F0D082;
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 100px;
+  
+        .title-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start; 
+            flex-direction: column; 
+            position: relative; 
+
+            @media (max-width: 1200px) {   
+                
+                h2, p {
+                    text-align: center;
+                    align-self: center;  
+                }
+            }
+  
+        p {
+            margin-bottom: 5px;
+            font-size: 18px;
+            color: #F94D1C;
+
+            @media (max-width: 576px) {  
+                text-align: center;
+                align-self: center;
+            }
+        }
+
+        h2 {
+            font-size: 45px;
+            font-weight: bold;
+            font-family: 'DM Sans', sans-serif;
+            margin-bottom: 0; 
+
+            @media (max-width: 576px) {  
+                font-size: 23px;  
+                text-align: center;
+                align-self: center;
+            }
+        }
+
+        .btn-black {
+            position: absolute; 
+            bottom: 0;
+            right: 0;
+            background-color: #F9D783;
+            color: black;
+
+            &:hover {
+                background-color: black;
+                color: white;
+            }
+
+            @media (max-width: 1200px) {
+                position: relative;
+                margin-top: 50px;
+                align-self: center;
+                width: 70%;
+                text-align: center;
+            }
+            
+               
+            }
+        }
+  
+      .columns {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 20px;
+
+        @media (max-width: 1200px) {
+          grid-template-columns: 1fr 1fr;
+          margin: auto;
+          column-gap: 100px;
+        }
+
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr;
+            margin: auto;
+        }
+  
+        .column {
+          margin: 0 10px; 
+  
+          
+          .kristine,
+          .mark,
+          .kimberly,
+          .justin {
+            background-color: #F0D082;
+            h2 {
+                margin-top: 20px;
+                font-size: 22px;
+                font-weight: bold;
+                font-family: 'DM Sans', sans-serif;
+            }
+            p {
+                font-size: 16px;
+            }
+
+            img {
+                max-width: 100%;
+            }
+          }
+        }
+      }
+    }
+}
