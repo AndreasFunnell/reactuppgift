@@ -1,0 +1,102 @@
+.why-choose-us {
+  position: relative;
+  padding-top: 75px;
+}
+@media (max-width: 1200px) {
+  .why-choose-us {
+    padding-bottom: 100px;
+  }
+}
+.why-choose-us .container {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+}
+@media (max-width: 1200px) {
+  .why-choose-us .container {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 1200px) {
+  .why-choose-us .container .text-section {
+    margin: auto;
+  }
+}
+.why-choose-us .container .text-section p1 {
+  color: #F94D1C;
+  font-size: 18px;
+}
+.why-choose-us .container .text-section h1 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "DM Sans", sans-serif;
+  max-width: 400px;
+}
+@media (max-width: 576px) {
+  .why-choose-us .container .text-section h1 {
+    font-size: 23px;
+    text-align: center;
+  }
+}
+.why-choose-us .container .text-section .item {
+  display: flex;
+  align-items: center;
+}
+.why-choose-us .container .text-section .item .circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #DAD9D3;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+.why-choose-us .container .text-section .item img {
+  max-width: 100%;
+}
+.why-choose-us .container .text-section .item h2 {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 10px;
+}
+.why-choose-us .container .text-section .item p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.why-choose-us .container .image-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.why-choose-us .container .image-section img {
+  margin-left: auto;
+  margin-bottom: 100px;
+  max-width: 100%;
+}
+@media (max-width: 1600px) {
+  .why-choose-us .container .image-section img {
+    margin: auto;
+  }
+}
+.why-choose-us .image-box {
+  background-color: #F0EFE9;
+  position: absolute;
+  top: 250px;
+  right: 0;
+  bottom: 0;
+  height: 425px;
+  width: 1057px;
+  z-index: -1;
+}
+@media (max-width: 1600px) {
+  .why-choose-us .image-box {
+    display: none;
+  }
+}
