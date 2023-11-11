@@ -1,18 +1,21 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './App.css'
-import Footer from './components/Footer/Footer'
-import Header from './components/Header/Header'
-import Main from './components/Main/Main'
 import './index.css'
+import Home from './views/Home';
+import Contacts from './views/Contacts';
+import NotFound from './views/NotFound';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
-    <div className="wrapper">
-      <Header />
-      <Main />
-      <Footer />
-    </div>
-  </React.StrictMode>,
-)
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/contacts' element={<Contacts />} />
+        <Route path='*' element={<NotFound />} />
+
+      </Routes>
+    </BrowserRouter>
+  </React.StrictMode>
+);

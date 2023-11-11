@@ -34,10 +34,10 @@ const NavSection = () => {
             </div>
             <div className="menu">
                 <nav>
-                    <a className="active" href="index.html">Home</a>
+                    <a className="active" href="/">Home</a>
                     <a href="services.html">Service</a>
                     <a href="news.html">News</a>
-                    <a href="contacts.html">Contact</a>
+                    <a href="contacts">Contact</a>
                 </nav>
                 <a className="btn-yellow btn-login" href="login.html">Login <i className="fa-regular fa-arrow-up-right"></i></a>
             </div>
