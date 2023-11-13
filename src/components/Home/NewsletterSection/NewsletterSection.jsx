@@ -1,16 +1,16 @@
 import React from 'react'
 import './NewsletterSection.css'
-import '../../../assets/images/Squiggle2.svg'
+import img_backgroundlines from '../../../assets/images/Squiggle2.svg'
 
 const NewsletterSection = () => {
   return (
-    <section class="newsletter">
-        <img class="background-lines-news" src="images/Squiggle2.svg" alt=""/>
-        <div class="container">
+    <section className="newsletter">
+        <img className="background-lines-news" src={img_backgroundlines} alt=""/>
+        <div className="container">
             <h2>Sign Up to Get News Updates</h2>
             <form>
                 <input type="text" placeholder="username@domain.com"/>
-                <button class="btn-yellow">Subscribe <i class="fa-regular fa-arrow-up-right"></i></button>
+                <button className="btn-yellow">Subscribe <i className="fa-regular fa-arrow-up-right"></i></button>
             </form>
         </div>
     </section>

@@ -3,6 +3,7 @@ import './TestimonialSection.css'
 import img_cassandra from '../../../assets/images/Cassandra.png'
 import img_amanda from '../../../assets/images/Amanda.png'
 import img_jack from '../../../assets/images/Jack.png'
+import img_stars from '../../../assets/images/stars.svg'
 
 
 const TestimonialSection = () => {
@@ -20,7 +21,7 @@ const TestimonialSection = () => {
                         <img src={img_cassandra} alt=""/>
                         </div>
                         <div className="text-content">
-                            <img className="stars" src="images/stars.svg" alt=""/>
+                            <img className="stars" src={img_stars} alt=""/>
                             <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium libero, ad dignissimos velit qui, dolorum obcaecati cum saepe nesciunt nemo eligendi numquam voluptate"</p>
                             <h1>Cassandra</h1>
                             <p1>Business Manager, Dorfus</p1>
@@ -33,7 +34,7 @@ const TestimonialSection = () => {
                         <img src={img_amanda} alt=""/>
                         </div>
                         <div className="text-content">
-                            <img className="stars" src="images/stars.svg" alt=""/>
+                        <img className="stars" src={img_stars} alt=""/>
                             <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium libero, ad dignissimos velit qui, dolorum obcaecati cum saepe nesciunt nemo eligendi numquam voluptate"</p>
                             <h1>Amanda</h1>
                             <p1>Senior Developer, Square</p1>
@@ -46,7 +47,7 @@ const TestimonialSection = () => {
                         <img src={img_jack} alt=""/>
                         </div>
                         <div className="text-content">
-                            <img className="stars" src="images/stars.svg" alt=""/>
+                        <img className="stars" src={img_stars} alt=""/>
                             <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium libero, ad dignissimos velit qui, dolorum obcaecati cum saepe nesciunt nemo eligendi numquam voluptate"</p>
                             <h1>Jack</h1>
                             <p1>Key Account Manager, Gobona</p1>

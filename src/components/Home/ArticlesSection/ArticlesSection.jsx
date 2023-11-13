@@ -16,7 +16,7 @@ const ArticlesSection = () => {
             <div className="columns">
                 <a href="#" className="column">
                     <div className="classroom">
-                        <img classname="classroom-image" src={img_classroom} alt=""/>
+                        <img className="classroom-image" src={img_classroom} alt=""/>
                         <div className="text-box">
                             <h2>25th</h2>
                             <p>March</p>
@@ -28,7 +28,7 @@ const ArticlesSection = () => {
                 </a>
                 <a href="#" className="column">
                     <div className="chatgpt">
-                    <img classname="chatgpt-image" src={img_chatgpt} alt=""/>
+                    <img className="chatgpt-image" src={img_chatgpt} alt=""/>
                         <div className="text-box">
                             <h2>17th</h2>
                             <p>March</p>
@@ -40,7 +40,7 @@ const ArticlesSection = () => {
                 </a>
                 <a href="#" className="column">
                     <div className="css">
-                    <img classname="css-image" src={img_css} alt=""/>
+                    <img className="css-image" src={img_css} alt=""/>
                         <div className="text-box">
                             <h2>13th</h2>
                             <p>March</p>
