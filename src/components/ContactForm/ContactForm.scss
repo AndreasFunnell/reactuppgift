@@ -10,6 +10,10 @@
       margin-bottom: 20px;
       text-align: left; // Align the text to the left
     }
+
+    .errorMessage {
+      color: red;
+    }
   
     form {
       width: 100%;
@@ -36,6 +40,9 @@
           padding-bottom: 50px;
         }
 
+        .error {
+          color: red;
+        }
       }
     
   
