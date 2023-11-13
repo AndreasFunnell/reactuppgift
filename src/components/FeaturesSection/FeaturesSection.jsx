@@ -1,5 +1,5 @@
 import React from 'react'
-import './featuresSection.css'
+import './FeaturesSection.css'
 import img_handshake from '../../assets/images/handshake.svg'
 import img_lamp from '../../assets/images/lamp.svg'
 import img_factory from '../../assets/images/factory.svg'

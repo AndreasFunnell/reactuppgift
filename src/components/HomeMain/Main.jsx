@@ -1,4 +1,5 @@
 import React from 'react'
+import ShowcaseSection from '../ShowcaseSection/ShowcaseSection'
 import CompanyLogos from '../CompanyLogos/CompanyLogos'
 import FeaturesSection from '../FeaturesSection/FeaturesSection'
 import AboutCompany from '../AboutCompany/AboutCompany'
@@ -13,6 +14,7 @@ import NewsletterSection from '../NewsletterSection/NewsletterSection'
 const Main = () => {
   return (
     <main>
+        <ShowcaseSection />
         <CompanyLogos />
         <FeaturesSection/>
         <AboutCompany/>

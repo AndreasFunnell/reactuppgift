@@ -1,0 +1,20 @@
+.contact-details .container {
+  padding-top: 50px;
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+}
+.contact-details .container .columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+}
+.contact-details .container .columns .column {
+  padding: 20px;
+}
+.contact-details .container .columns .column h2 {
+  font-size: 18px;
+}
+.contact-details .container .columns .column p {
+  margin: 0;
+}
