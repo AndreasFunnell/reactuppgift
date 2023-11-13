@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
-import Main from '../components/ContactsMain/Main'
+import Main from '../components/Contacts/ContactsMain/Main'
 
 const Contacts = () => {
   return (

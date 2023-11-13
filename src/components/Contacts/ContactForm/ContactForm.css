@@ -1,0 +1,48 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 70%;
+  margin: 0 auto;
+  background-color: #F0EFE9;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.contact-form h2 {
+  margin-bottom: 20px;
+  text-align: left;
+}
+.contact-form .errorMessage {
+  color: red;
+}
+.contact-form form {
+  width: 70%;
+}
+.contact-form form .form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+.contact-form form .form-group label {
+  display: block;
+  margin-bottom: 8px;
+  border-radius: 20px;
+}
+.contact-form form .form-group input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  text-align: left;
+}
+.contact-form form .form-group input[type=message] {
+  padding-bottom: 100px;
+  border-radius: 20px;
+}
+.contact-form form .form-group .error {
+  color: red;
+}
+.contact-form form button {
+  width: 100%;
+}

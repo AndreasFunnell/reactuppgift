@@ -1,0 +1,27 @@
+.contact-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 70px;
+  background-color: #F0EFE9;
+  position: relative;
+}
+.contact-title .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-title .container h2 {
+  margin: 0;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "DM Sans", sans-serif;
+}
+.contact-title .container .background-lines-contact {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 30%;
+}
