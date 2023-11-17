@@ -1,0 +1,25 @@
+.wrapper-notfound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  main {
+    text-align: center;
+
+    .image {
+      max-width: 100%;
+    }
+
+    .btn-yellow {
+      margin-top: 20px; // Adjust the margin-top value as needed
+      width: 70%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+  
+  

@@ -12,6 +12,8 @@
 .contact-form h2 {
   margin-bottom: 20px;
   text-align: left;
+  font-size: 45px;
+  font-weight: bold;
 }
 .contact-form .errorMessage {
   color: red;
@@ -23,11 +25,6 @@
   margin-bottom: 20px;
   text-align: left;
 }
-.contact-form form .form-group label {
-  display: block;
-  margin-bottom: 8px;
-  border-radius: 20px;
-}
 .contact-form form .form-group input {
   width: 100%;
   padding: 15px;
@@ -35,10 +32,19 @@
   border-radius: 20px;
   box-sizing: border-box;
   text-align: left;
+  margin-bottom: 8px;
+}
+.contact-form form .form-group input.error {
+  border-color: red;
+}
+.contact-form form .form-group input.error::-moz-placeholder {
+  color: red;
+}
+.contact-form form .form-group input.error::placeholder {
+  color: red;
 }
 .contact-form form .form-group input[type=message] {
   padding-bottom: 100px;
-  border-radius: 20px;
 }
 .contact-form form .form-group .error {
   color: red;

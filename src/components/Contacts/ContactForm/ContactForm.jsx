@@ -79,28 +79,49 @@ const ContactForm = () => {
     }
   
     return (
-    <section className="contact-form">
-        <h2>Leave us a message for any information</h2>
-        <p className="errorMessage">{errorMessage}</p>
-        <form onSubmit={handleSubmit} noValidate>
-        <div className="form-group">
-            <label className={`${nameError ? 'error': ''}`}>{`Name ${nameError ? ' is required': ''}`}</label>
-            <input type="text" name="name" value={name} onChange={(e) => handleChange(e)} />
-        </div>
-
-        <div className="form-group">
-            <label className={`${emailError ? 'error': ''}`}>{`Email ${emailError ? ' is required': ''}`}</label>
-            <input type="email" name="email" value={email} onChange={(e) => handleChange(e)} />
-        </div>
-
-        <div className="form-group message-group">
-            <label className={`${messageError ? 'error': ''}`}>{`Message ${messageError ? ' is required': ''}`}</label>
-            <input type="message" name="message" value={message} onChange={(e) => handleChange(e)} />
-        </div>
-
-        <button className="btn-yellow" type="submit">Send Message</button>
-        </form>
-    </section>
+        <section className="contact-form">
+            <h2>Leave us a message for any information.</h2>
+            <p className="errorMessage">{errorMessage}</p>
+                <form onSubmit={handleSubmit} noValidate>
+                    <div className="form-group">
+                        <input
+                            type="text"
+                            name="name"
+                            value={name}
+                            onChange={(e) => handleChange(e)}
+                            placeholder={`Name${nameError ? ' is required' : ''}`}
+                            className={`${nameError ? 'error' : ''}`}
+                        />
+                    </div>
+            
+                    <div className="form-group">
+                        <input
+                            type="email"
+                            name="email"
+                            value={email}
+                            onChange={(e) => handleChange(e)}
+                            placeholder={`Email${emailError ? ' is required' : ''}`}
+                            className={`${emailError ? 'error' : ''}`}
+                        />
+                    </div>
+            
+                    <div className="form-group message-group">
+                        <input
+                            type="message"
+                            name="message"
+                            value={message}
+                            onChange={(e) => handleChange(e)}
+                            placeholder={`Message${messageError ? ' is required' : ''}`}
+                            className={`${messageError ? 'error' : ''}`}
+                        />
+                    </div>
+            
+                    <button className="btn-yellow" type="submit">
+                        Send Message
+                    </button>
+                </form>
+        </section>
+    
   )
 }
 

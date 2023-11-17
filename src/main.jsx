@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import Home from './views/Home';
 import Contacts from './views/Contacts';
-import NotFound from './views/NotFound';
+import NotFound from './views/NotFound/NotFound';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
